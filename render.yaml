@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ngo-project
+    env: node
+    plan: free
+    buildCommand: yarn build
+    startCommand: yarn start
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
