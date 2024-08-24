@@ -1,0 +1,43 @@
+.filter_button {
+  color: rgb(4, 4, 4);
+  padding: 10px 20px;
+  margin: 3rem 0 0 45rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30rem;
+  transition: background-color 0.3s;
+}
+
+.filter_button:hover {
+  background-color: #008080;
+  color: white;
+  border: 1px solid white;
+}
+
+.filter-section {
+  margin-bottom: 15px;
+}
+
+.filter-section label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.gender-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gender-checkbox input[type="checkbox"] {
+  margin-right: 5px;
+}
+ @media screen and (max-width:1000px) {
+  .filter_button {
+    
+    margin: 3rem 0 0 20rem;
+  }
+  
+ }
+
